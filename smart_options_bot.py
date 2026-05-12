@@ -46,11 +46,11 @@ logger = logging.getLogger(**name**)
 
 # ─────────────────────────────────────────
 
-GROQ_API_KEY     = "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”       # console.groq.com (free)
-TELEGRAM_TOKEN   = “8791917867: AAEVUtRCr71nTSMX6PyoL3Ag"
+GROQ_API_KEY     = os.environ.get("GROQ_API_KEY")       # console.groq.com (free)
+TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN")
 _hxaØfQSERO” # 
 _hxaØfQSERO
-TELEGRAM_CHANNEL = “@OptionAiTradez            # your channel e.g. @optionsflow
+TELEGRAM_CHANNEL = os.environ.get("TELEGRAM_CHANNEL")
 
 MIN_DAILY_ALERTS = 2    # Guaranteed minimum alerts per day
 HIGH_SCORE       = 75   # Post immediately when found
