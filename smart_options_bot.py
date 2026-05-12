@@ -53,7 +53,8 @@ POST_MINUTE      = 30
 WATCHLIST = [
     "SPY", "QQQ", "AAPL", "NVDA", "TSLA",
     "MSFT", "META", "AMZN", "AMD", "GOOGL",
-    "JPM", "GS", "BAC", "XLF", "IWM"
+    "JPM", "GS", "BAC", "XLF", "IWM",
+    "LCID", "WMT", "DIS", "KO", "NFLX"
 ]
 
 TRACKER_FILE = "tracker.json"
